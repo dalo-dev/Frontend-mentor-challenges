@@ -22,4 +22,61 @@
 
 body {
   background-color: var(--eggshell);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: var(--paragraph-size);
+
+  font-family: "Young Serif", serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.main-cont {
+  background-color: var(--white);
+  max-width: 600px;
+  border-radius: 1rem;
+  padding: 2rem;
+  div {
+    margin: 1rem 0;
+  }
+  .img-cont {
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    img {
+      width: inherit;
+    }
+  }
+  .hero-cont {
+    h1 {
+      padding-bottom: 1rem;
+      font-family: "Young Serif", serif;
+      color: var(--dark-charcoal);
+      font-weight: normal;
+    }
+    p {
+      color: var(--wenge-brown);
+    }
+  }
+  .prep-cont {
+    padding: 1rem;
+    background-color: var(--rose-white);
+    border-radius: 8px;
+    h3 {
+      font-weight: 600;
+      color: var(--dark-raspberry);
+    }
+    ul {
+      color: var(--wenge-brown);
+      margin: 0 0.4rem;
+      li {
+        margin: 0.5rem 1rem;
+        padding-left: 1rem;
+      }
+      li::marker {
+        color: var(--dark-raspberry);
+      }
+    }
+  }
 }
