@@ -27,8 +27,6 @@ body {
   align-items: center;
   min-height: 100vh;
   font-size: var(--paragraph-size);
-
-  font-family: "Young Serif", serif;
   font-family: "Outfit", sans-serif;
 }
 
@@ -94,6 +92,25 @@ body {
       }
       li::marker {
         color: var(--dark-raspberry);
+      }
+    }
+  }
+  .ins-cont {
+    h2 {
+      font-family: "Young Serif", serif;
+      color: var(--nutmeg);
+      font-weight: normal;
+    }
+    ol {
+      color: var(--wenge-brown);
+      margin: 0 0.4rem;
+      li {
+        margin: 0.5rem 1rem;
+        padding-left: 1rem;
+      }
+      li::marker {
+        color: var(--dark-raspberry);
+        font-weight: bold;
       }
     }
   }
