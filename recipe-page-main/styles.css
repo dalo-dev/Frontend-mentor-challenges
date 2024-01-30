@@ -114,4 +114,23 @@ body {
       }
     }
   }
+  .nutri-cont {
+    h2 {
+      font-family: "Young Serif", serif;
+      color: var(--nutmeg);
+      font-weight: normal;
+    }
+    table {
+      width: 100%;
+      tr {
+        td {
+          padding: 1rem 2rem;
+        }
+        td:nth-child(2) {
+          font-weight: bold;
+          color: var(--nutmeg);
+        }
+      }
+    }
+  }
 }
