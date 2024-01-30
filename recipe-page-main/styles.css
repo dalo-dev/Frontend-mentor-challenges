@@ -79,4 +79,22 @@ body {
       }
     }
   }
+  .ingredients-cont {
+    h2 {
+      font-family: "Young Serif", serif;
+      color: var(--nutmeg);
+      font-weight: normal;
+    }
+    ul {
+      color: var(--wenge-brown);
+      margin: 0 0.4rem;
+      li {
+        margin: 0.5rem 1rem;
+        padding-left: 1rem;
+      }
+      li::marker {
+        color: var(--dark-raspberry);
+      }
+    }
+  }
 }
