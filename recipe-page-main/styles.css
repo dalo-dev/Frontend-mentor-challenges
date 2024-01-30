@@ -30,10 +30,16 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+hr {
+  height: 1px;
+  background-color: var(--light-grey);
+  border: none;
+}
+
 .main-cont {
   margin: 6rem;
   background-color: var(--white);
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 1rem;
   padding: 2rem;
   div {
@@ -92,7 +98,7 @@ body {
         padding-left: 1rem;
       }
       li::marker {
-        color: var(--dark-raspberry);
+        color: var(--nutmeg);
       }
     }
   }
@@ -110,7 +116,7 @@ body {
         padding-left: 1rem;
       }
       li::marker {
-        color: var(--dark-raspberry);
+        color: var(--nutmeg);
         font-weight: bold;
       }
     }
@@ -120,9 +126,15 @@ body {
       font-family: "Young Serif", serif;
       color: var(--nutmeg);
       font-weight: normal;
+      padding-bottom: 1rem;
+    }
+    p {
+      color: var(--wenge-brown);
     }
     table {
       width: 100%;
+      color: var(--wenge-brown);
+      border-color: var(--light-grey);
       tr {
         td {
           padding: 1rem 2rem;
