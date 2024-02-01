@@ -17,10 +17,66 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  width: 100%;
+  li {
+    width: inherit;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
 body {
   background-color: var(--Off-Black);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 500px;
+  padding: 3rem;
+  background-color: var(--Dark-Grey);
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .img-container {
+    width: 100px;
+    img {
+      width: inherit;
+      border-radius: 50%;
+    }
+  }
+
+  .personal-info-container {
+    h1 {
+      color: var(--White);
+    }
+
+    h2 {
+      color: var(--green);
+    }
+
+    p {
+      color: var(--White);
+    }
+  }
+
+  .social-media-container {
+    width: 100%;
+    ul li a {
+      color: var(--White);
+      width: inherit;
+      background-color: var(--Grey);
+    }
+  }
 }
