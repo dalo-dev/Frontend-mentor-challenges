@@ -88,5 +88,9 @@ main {
       width: inherit;
       background-color: var(--Grey);
     }
+    ul li a:hover {
+      background-color: var(--green);
+      color: var(--Dark-Grey);
+    }
   }
 }
