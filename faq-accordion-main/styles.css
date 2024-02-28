@@ -28,6 +28,38 @@ body {
 main {
   background-color: var(--white);
   border-radius: 1rem;
-  max-width: 700px;
+  max-width: 650px;
   padding: 2rem;
+}
+
+main div {
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.questions {
+  .question-container {
+    .question {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .answer {
+      color: var(--grayishPurple);
+    }
+  }
 }
