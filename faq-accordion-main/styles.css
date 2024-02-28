@@ -32,9 +32,15 @@ body {
 main {
   background-color: var(--white);
   border-radius: 1rem;
-  max-width: 650px;
+  width: 650px;
   margin: 1rem;
   padding: 2rem;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--lightPink);
+  border: none;
 }
 
 .questions div {
